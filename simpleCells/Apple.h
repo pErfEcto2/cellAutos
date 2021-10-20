@@ -9,6 +9,6 @@ class Apple {
         void draw(RenderTarget &window);
     private:
         Vector2f pos;
-        Vector2f size = {1, 1};
-        Color color = Color::Red;
+        Vector2f size = {5, 5};
+        Color color = Color::Green;
 };
